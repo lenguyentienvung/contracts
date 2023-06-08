@@ -1,0 +1,15 @@
+[profile.default]
+src = 'contracts'
+test = 'test'
+out = 'out'
+libs = ['lib', 'node_modules']
+cache = true
+cache_path = 'cache'
+
+solc = "0.8.18"
+
+[fmt]
+bracket_spacing = true
+number_underscore = 'thousands'
+wrap_comments = true
+ignore = ['lib/**', 'node_modules/**']
